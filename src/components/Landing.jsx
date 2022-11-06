@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
+import Logo from '../assets/Logo.png'
 
 export default function Landing() {
     return (
         <div className='main'>
-            <h1 className='mb-5'>FriendWorld</h1>
+            <img className='mb-5' src={Logo} />
             <div className='card bg-dark card-width'>
                 <div className='card-body'>
                     <h5 className='card-title text-white'>Welcome</h5>
