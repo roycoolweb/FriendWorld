@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { WorldIDWidget } from '@worldcoin/id'
 
 export default function CreateChalkboard() {
     return (
         <div className='container'>
+            <Link to='/gallery' className='btn btn-danger mt-2'>Back</Link>
             <h1>Register</h1>
             <form className='form-width'>
                 <div className="mb-3 row">

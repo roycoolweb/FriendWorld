@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './components/Landing'
 import Gallery from './components/Gallery'
 import Register from './components/Register'
+import Profile from './components/Profile'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/create" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   )

@@ -17,7 +17,7 @@ export default function Gallery() {
                                 <h5 className='card-title'>Sam</h5>
                                 <p className='card-text'>I love to code</p>
                                 <div className='d-grid gap-2'>
-                                    <Link to='/gallery' className='btn btn-primary btn-block'>View</Link>
+                                    <Link to='/profile' className='btn btn-primary btn-block'>View</Link>
                                 </div>
                             </div>
                         </div>
