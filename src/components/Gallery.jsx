@@ -9,19 +9,22 @@ export default function Gallery() {
                 <Link to='/create' className='btn btn-success'>Register</Link>
             </div>
 
-            <div className='row'>
-                <div className='col-4'>
-                    <div className='card'>
-                        <div className='row g-0'>
-                            <div className='card-body'>
-                                <h5 className='card-title'>Sam</h5>
-                                <p className='card-text'>I love to code</p>
-                                <div className='d-grid gap-2'>
-                                    <Link to='/profile' className='btn btn-primary btn-block'>View</Link>
-                                </div>
-                            </div>
-                        </div>
+            <div className="list-group">
+                <div className="list-group-item list-group-item-action" aria-current="true">
+                    <div className="d-flex w-100 justify-content-between">
+                        <h5 className="mb-1">Sam</h5>
+                        <small>1 days ago</small>
                     </div>
+                    <p className="mb-1">Programming</p>
+                    <Link to='/profile' className='btn btn-primary btn-block'>View</Link>
+                </div>
+                <div className="list-group-item list-group-item-action" aria-current="true">
+                    <div className="d-flex w-100 justify-content-between">
+                        <h5 className="mb-1">Ken</h5>
+                        <small>2 days ago</small>
+                    </div>
+                    <p className="mb-1">Art</p>
+                    <Link to='/profile' className='btn btn-primary btn-block'>View</Link>
                 </div>
             </div>
         </div>

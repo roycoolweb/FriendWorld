@@ -15,6 +15,12 @@ export default function CreateChalkboard() {
                     </div>
                 </div>
                 <div className="mb-3 row">
+                    <label for="summary" className="col-sm-2 col-form-label">Subject</label>
+                    <div className="col-sm-10">
+                        <input type="text" className="form-control" id="summary" />
+                    </div>
+                </div>
+                <div className="mb-3 row">
                     <label for="summary" className="col-sm-2 col-form-label">Summary</label>
                     <div className="col-sm-10">
                         <input type="text" className="form-control" id="summary" />
